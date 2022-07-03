@@ -1,0 +1,16 @@
+D:\projects\designPatterns\samuraiApp\singeleton\bin\Debug\net5.0\singeleton.exe
+D:\projects\designPatterns\samuraiApp\singeleton\bin\Debug\net5.0\singeleton.deps.json
+D:\projects\designPatterns\samuraiApp\singeleton\bin\Debug\net5.0\singeleton.runtimeconfig.json
+D:\projects\designPatterns\samuraiApp\singeleton\bin\Debug\net5.0\singeleton.runtimeconfig.dev.json
+D:\projects\designPatterns\samuraiApp\singeleton\bin\Debug\net5.0\singeleton.dll
+D:\projects\designPatterns\samuraiApp\singeleton\bin\Debug\net5.0\ref\singeleton.dll
+D:\projects\designPatterns\samuraiApp\singeleton\bin\Debug\net5.0\singeleton.pdb
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.csproj.AssemblyReference.cache
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.AssemblyInfoInputs.cache
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.AssemblyInfo.cs
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.csproj.CoreCompileInputs.cache
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.dll
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\ref\singeleton.dll
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.pdb
+D:\projects\designPatterns\samuraiApp\singeleton\obj\Debug\net5.0\singeleton.genruntimeconfig.cache
