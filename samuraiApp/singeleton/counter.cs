@@ -10,11 +10,14 @@ namespace singeleton
     {
         public int count = 0;
         private static counter instance = null;
-
+        private static object instanceLock = new object();
         public static counter getInstance()
         {
+            lock (instanceLock){
+
             if (instance == null) { instance = new counter(); }
             return instance;
+            }
         }
 
         private counter()

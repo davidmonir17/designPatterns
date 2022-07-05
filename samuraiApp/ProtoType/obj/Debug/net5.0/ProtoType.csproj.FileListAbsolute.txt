@@ -1,0 +1,16 @@
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\bin\Debug\net5.0\ProtoType.exe
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\bin\Debug\net5.0\ProtoType.deps.json
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\bin\Debug\net5.0\ProtoType.runtimeconfig.json
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\bin\Debug\net5.0\ProtoType.runtimeconfig.dev.json
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\bin\Debug\net5.0\ProtoType.dll
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\bin\Debug\net5.0\ProtoType.pdb
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.csproj.AssemblyReference.cache
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.AssemblyInfoInputs.cache
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.AssemblyInfo.cs
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.csproj.CoreCompileInputs.cache
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.dll
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\refint\ProtoType.dll
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.pdb
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ProtoType.genruntimeconfig.cache
+C:\Users\david\Source\Repos\designPatterns\samuraiApp\ProtoType\obj\Debug\net5.0\ref\ProtoType.dll
