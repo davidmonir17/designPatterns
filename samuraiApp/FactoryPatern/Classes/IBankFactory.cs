@@ -9,5 +9,6 @@ namespace FactoryPatern.Classes
     public interface IBankFactory
     {
         IBank GetBank(string BanckCode);
+        IPaymentCard GetCard(string CardNum);
     }
 }

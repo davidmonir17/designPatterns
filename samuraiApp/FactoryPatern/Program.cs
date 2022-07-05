@@ -14,7 +14,9 @@ namespace FactoryPatern
             CardNum=Console.ReadLine();
             bankCode = CardNum.Substring(0, 6);
             IBank bank = bankFactory.GetBank(bankCode);
+            IPaymentCard bankCard = bankFactory.GetCard("22");
             Console.WriteLine(bank.Withdraw());
+            Console.WriteLine(bankCard.GetName());
 
 
         }

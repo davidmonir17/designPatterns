@@ -18,5 +18,17 @@ namespace FactoryPatern.Classes
             }
             return null;
         }
+
+        public IPaymentCard GetCard(string CardNum)
+        {
+
+            switch (CardNum)
+            {
+                case "12": return new VisaCard();
+                case "22": return new MasterCard();
+
+            }
+            return null;
+        }
     }
 }
