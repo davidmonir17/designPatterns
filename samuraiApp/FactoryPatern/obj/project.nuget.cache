@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fr0ZiKjgLB9Nuq+g1PPXd3P1G56nU7Y8HoxTiyFIyG4d3zOOFdSJPhvY2ctJ6hOzDOXeN0Z1FDxWR+g5re1ikw==",
+  "dgSpecHash": "3g3H0Ynpw38UL4wPmPXuJtWijm05AiE9hE6Q6b7J2JkfS/WOawvmibSrAK6e0T2H5/+IrYVYb3ibg+y7Jw45Sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\Source\\Repos\\designPatterns\\samuraiApp\\FactoryPatern\\FactoryPatern.csproj",
+  "projectFilePath": "C:\\Users\\DavidF\\Source\\Repos\\designPatterns\\samuraiApp\\FactoryPatern\\FactoryPatern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

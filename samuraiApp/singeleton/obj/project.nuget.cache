@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vwCbXNXXS7VkTH+TS5w2Jr3vF3ZSiY8onmjZ1v7sRdYI7X9xSFRK00vZuot63seRvd0fWdxZv3QAGzXGyoirKQ==",
+  "dgSpecHash": "ECL49FeGB5skwQPb9CqvrkWCTOLqoi6doWvTpnbUuEnLpTXOnGkVAVe9eRWzX2DWy9E8Hxdmbx0pn1qinGxvMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\Source\\Repos\\designPatterns\\samuraiApp\\singeleton\\singeleton.csproj",
+  "projectFilePath": "C:\\Users\\DavidF\\Source\\Repos\\designPatterns\\samuraiApp\\singeleton\\singeleton.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

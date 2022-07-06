@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sQZJ2YT6/CTKzsLFdACi1FcBfPekJGTastx/PhPs8WhUYe31F1Mf6muYjgwM722LukYcm5r8Wexffv5/30HJ0g==",
+  "dgSpecHash": "0k5O4RQGd7yb5wGLKJIVvpXt0xusD5td0z5jYzRSK0cnQ5zY0IgnavUSVFTSLIjXueLhq1yrr3coo1Zns5Bl/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\Source\\Repos\\designPatterns\\samuraiApp\\Builder\\Builder.csproj",
+  "projectFilePath": "C:\\Users\\DavidF\\Source\\Repos\\designPatterns\\samuraiApp\\Builder\\Builder.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
