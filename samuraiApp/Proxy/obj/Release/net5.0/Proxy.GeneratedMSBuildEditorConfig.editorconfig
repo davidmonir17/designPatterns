@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Proxy
-build_property.ProjectDir = C:\Users\DavidF\source\repos\designPatterns\samuraiApp\Proxy\
+build_property.ProjectDir = C:\Users\DavidF\Source\Repos\designPatterns\samuraiApp\Proxy\
