@@ -1,0 +1,16 @@
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\bin\Debug\net5.0\BehaviourPatterns.exe
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\bin\Debug\net5.0\BehaviourPatterns.deps.json
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\bin\Debug\net5.0\BehaviourPatterns.runtimeconfig.json
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\bin\Debug\net5.0\BehaviourPatterns.runtimeconfig.dev.json
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\bin\Debug\net5.0\BehaviourPatterns.dll
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\bin\Debug\net5.0\BehaviourPatterns.pdb
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.AssemblyInfo.cs
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.dll
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\refint\BehaviourPatterns.dll
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.pdb
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\BehaviourPatterns.genruntimeconfig.cache
+C:\Users\david\source\repos\designPatterns\samuraiApp\BehaviourPatterns\obj\Debug\net5.0\ref\BehaviourPatterns.dll
