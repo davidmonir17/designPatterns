@@ -2,6 +2,7 @@
 using Proxy.Classes;
 using Proxy.Decorator;
 using Proxy.Facade;
+using Proxy.FlyWeight;
 using System;
 
 namespace Proxy
@@ -33,62 +34,68 @@ namespace Proxy
             //double sal=salaryCalcolator.CalcSalary(machine);
             //Console.WriteLine(sal.ToString());
             #endregion
+            #region
+            //ShoppingBasket basket  = new ShoppingBasket();
+            //basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 1,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //});
+            //basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 2,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //});
+            //basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 4,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //}); basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 5,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //}); 
+            //basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 6,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //}); basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 7,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //});
+            //basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 8,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //}); basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 9,
+            //    ItemPrice = 10,
+            //    Quantity = 5
+            //});
+            //basket.AddItem(new BasketItem
+            //{
+            //    ItemId = 10,
+            //    ItemPrice = 20,
+            //    Quantity = 5
+            //});
 
-            ShoppingBasket basket  = new ShoppingBasket();
-            basket.AddItem(new BasketItem
-            {
-                ItemId = 1,
-                ItemPrice = 10,
-                Quantity = 5
-            });
-            basket.AddItem(new BasketItem
-            {
-                ItemId = 2,
-                ItemPrice = 10,
-                Quantity = 5
-            });
-            basket.AddItem(new BasketItem
-            {
-                ItemId = 4,
-                ItemPrice = 10,
-                Quantity = 5
-            }); basket.AddItem(new BasketItem
-            {
-                ItemId = 5,
-                ItemPrice = 10,
-                Quantity = 5
-            }); 
-            basket.AddItem(new BasketItem
-            {
-                ItemId = 6,
-                ItemPrice = 10,
-                Quantity = 5
-            }); basket.AddItem(new BasketItem
-            {
-                ItemId = 7,
-                ItemPrice = 10,
-                Quantity = 5
-            });
-            basket.AddItem(new BasketItem
-            {
-                ItemId = 8,
-                ItemPrice = 10,
-                Quantity = 5
-            }); basket.AddItem(new BasketItem
-            {
-                ItemId = 9,
-                ItemPrice = 10,
-                Quantity = 5
-            });
-            basket.AddItem(new BasketItem
-            {
-                ItemId = 10,
-                ItemPrice = 20,
-                Quantity = 5
-            });
+            //PurshceOrder order =  new PurshceOrder();
+            //order.CreateOrder(basket, "david dsad ldkal;skd");
+            #endregion
 
-            PurshceOrder order =  new PurshceOrder();
-            order.CreateOrder(basket, "david dsad ldkal;skd");
+            DiscountCalcFactory discountCalcFactory = new DiscountCalcFactory();
+            var calculator = discountCalcFactory.GetDiscountCalc("day");
+            var val = calculator.GetDiscountValue(DateTime.Now.Date, "60");
+            Console.WriteLine(val);
         }
     }
 }
