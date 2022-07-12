@@ -1,4 +1,5 @@
 ﻿using BehaviourPatterns.ChainOfResponspilities;
+using BehaviourPatterns.Iterator;
 using BehaviourPatterns.Mediator;
 using BehaviourPatterns.Observer;
 using BehaviourPatterns.State;
@@ -54,17 +55,41 @@ namespace BehaviourPatterns
             //    context.Request2();
             #endregion
 
-            Component1 component1 = new Component1();
-            Component2 component2 = new Component2();
-            new ConcreteMediator(component1, component2);
+            #region Iterator
+            //Component1 component1 = new Component1();
+            //Component2 component2 = new Component2();
+            //new ConcreteMediator(component1, component2);
 
-            Console.WriteLine("Client triggets operation A.");
-            component1.DoA();
+            //Console.WriteLine("Client triggets operation A.");
+            //component1.DoA();
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine("Client triggers operation D.");
-            component2.DoD();
+            //Console.WriteLine("Client triggers operation D.");
+            //component2.DoD();
+            #endregion
+
+
+            var collection = new WordsCollection();
+            collection.AddItem("First");
+            collection.AddItem("Second");
+            collection.AddItem("Third");
+
+            Console.WriteLine("Straight traversal:");
+
+            foreach (var element in collection)
+            {
+                Console.WriteLine(element);
+            }
+
+            Console.WriteLine("\nReverse traversal:");
+
+            collection.ReverseDirection();
+
+            foreach (var element in collection)
+            {
+                Console.WriteLine(element);
+            }
         }
     }
 }
