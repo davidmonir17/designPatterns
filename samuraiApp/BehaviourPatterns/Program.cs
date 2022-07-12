@@ -1,4 +1,5 @@
 ﻿using BehaviourPatterns.ChainOfResponspilities;
+using BehaviourPatterns.Observer;
 using System;
 
 namespace BehaviourPatterns
@@ -7,24 +8,39 @@ namespace BehaviourPatterns
     {
         static void Main(string[] args)
         {
-            Handler brayn =new Director();
-            Handler Crystal =new VP();
-            Handler jeff =new CEO();
-            brayn.setSuccessor(Crystal);
-            Crystal.setSuccessor(jeff);
-            var requst = new Request(Requesttype.Confirace, 500);
-            brayn.handlerRequest(requst);
-            Console.WriteLine(requst.res.ToString());
+            #region ChainOfResponsiblites
+            //    Handler brayn =new Director();
+            //    Handler Crystal =new VP();
+            //    Handler jeff =new CEO();
+            //    brayn.setSuccessor(Crystal);
+            //    Crystal.setSuccessor(jeff);
+            //    var requst = new Request(Requesttype.Confirace, 500);
+            //    brayn.handlerRequest(requst);
+            //    Console.WriteLine(requst.res.ToString());
 
-            requst = new Request(Requesttype.purcase, 1000);
-            brayn.handlerRequest(requst);
+            //    requst = new Request(Requesttype.purcase, 1000);
+            //    brayn.handlerRequest(requst);
 
-            Console.WriteLine(requst.res.ToString());
+            //    Console.WriteLine(requst.res.ToString());
 
-             requst = new Request(Requesttype.purcase, 1700);
-            brayn.handlerRequest(requst);
+            //     requst = new Request(Requesttype.purcase, 1700);
+            //    brayn.handlerRequest(requst);
 
-            Console.WriteLine(requst.res.ToString());
+            //    Console.WriteLine(requst.res.ToString());
+            #endregion
+            var subject = new Subject();
+            var observerA = new ConcreteObserverA();
+            subject.attach(observerA);
+
+            var observerB = new ConcreteObserverB();
+            subject.attach(observerB);
+
+            subject.SomeBusinessLogic();
+            subject.SomeBusinessLogic();
+
+            subject.detach(observerB);
+
+            subject.SomeBusinessLogic();
         }
     }
 }
