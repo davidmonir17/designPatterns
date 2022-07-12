@@ -1,5 +1,6 @@
 ﻿using BehaviourPatterns.ChainOfResponspilities;
 using BehaviourPatterns.Observer;
+using BehaviourPatterns.State;
 using System;
 
 namespace BehaviourPatterns
@@ -28,19 +29,28 @@ namespace BehaviourPatterns
 
             //    Console.WriteLine(requst.res.ToString());
             #endregion
-            var subject = new Subject();
-            var observerA = new ConcreteObserverA();
-            subject.attach(observerA);
 
-            var observerB = new ConcreteObserverB();
-            subject.attach(observerB);
 
-            subject.SomeBusinessLogic();
-            subject.SomeBusinessLogic();
+            #region Observer
+            //var subject = new Subject();
+            //var observerA = new ConcreteObserverA();
+            //subject.attach(observerA);
 
-            subject.detach(observerB);
+            //var observerB = new ConcreteObserverB();
+            //subject.attach(observerB);
 
-            subject.SomeBusinessLogic();
+            //subject.SomeBusinessLogic();
+            //subject.SomeBusinessLogic();
+
+            //subject.detach(observerB);
+
+            //subject.SomeBusinessLogic();
+
+            #endregion
+
+            var context = new Context(new ConcreteStateA());
+            context.Request1();
+            context.Request2();
         }
     }
 }
